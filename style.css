@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.box_1{
+	width:200px;
+	height:200px;
+	background-image:linear-gradient(#ff000069,#ffffff82,#008000c9),url(./image/flw.jpeg);
+	
+}
+.box_2{
+	width:200px;
+	height:200px;
+	background-image:linear-gradient(to left,blue,yellow);
+}
+.box_3{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	background-image:linear-gradient(45deg,#006600 25%,#80aaff 25%,#000066 50%);
+}
+.box_4{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	background-image:radial-gradient(green 30%,white 50%,red 20%);
+}
+.box_5{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	background-image:repeating-radial-gradient(green 5%,white 10%,red 20%);
+}
+.box_6{
+	width:400px;
+	height:300px;
+	border-radius:50%;
+	background-image:conic-gradient(#0000ff6e,#ffff0080,#0000004d),url(./image/flw.jpeg);
+}
+
+
+.linear{
+	display:flex;
+	gap:10px;
+	padding:20px;
+}
+.radial{
+	display:flex;
+	gap:10px;
+	padding:20px;
+}
